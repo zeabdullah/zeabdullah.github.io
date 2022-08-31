@@ -33,7 +33,6 @@ export default function Navbar(): JSX.Element {
                     mobileNavActive ? 'bg-neutral-100' : 'bg-light',
                     'bg-opacity-90 backdrop-blur-md',
                     'dark:bg-dark/95 dark:text-light',
-                    'px-3.5 py-4',
                     'border-b',
                     navAndFooterCls,
                 )}

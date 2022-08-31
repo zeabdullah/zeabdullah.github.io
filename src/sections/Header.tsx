@@ -76,7 +76,7 @@ export default function Header() {
                 </P>
                 <P>
                     As a current software engineer at{' '}
-                    <Anchor href="https://distin-gui.com" outer>
+                    <Anchor href="https://distin-gui.com" external>
                         Distin-Gui
                     </Anchor>
                     , I work on creating web experiences for clients small and large.
@@ -87,7 +87,7 @@ export default function Header() {
                     about software development, such as{' '}
                     <Anchor
                         href="https://www.oreilly.com/library/view/the-clean-coder/9780132542913"
-                        outer
+                        external
                     >
                         Clean Coder
                     </Anchor>{' '}
@@ -109,7 +109,7 @@ const Socials: React.FC = () => (
                 href="https://github.com/abdullahzeidan"
                 aria-label={githubLabel}
                 title={githubLabel}
-                outer
+                external
             >
                 <FaGithub role="img" aria-label={githubLabel} />
             </IconLink>
@@ -117,7 +117,7 @@ const Socials: React.FC = () => (
                 href="https://www.linkedin.com/in/abdullah-z-b4653a213/"
                 aria-label={linkedinLabel}
                 title={linkedinLabel}
-                outer
+                external
             >
                 <FaLinkedin role="img" aria-label={linkedinLabel} />
             </IconLink>
